@@ -1,0 +1,14 @@
+.button {
+    width: 400px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #EF6B4A;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+    line-height: 32.78px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}

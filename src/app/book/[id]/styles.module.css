@@ -1,0 +1,124 @@
+.section {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section > a > h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    line-height: 32.78px;
+    color: #090937;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.section > a > h2 > svg {
+    margin-top: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.foto {
+    width: 425px;
+    height: 575px;
+    border-radius: 4px;
+    border: 1px solid #0909371A;
+    background-color: #F4F4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto > img {
+    width: 305px;
+    height: 425px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info > h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    line-height: 54.64px;
+    color: #000000;
+}
+
+.info > p {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    line-height: 43.71px;
+    color: #00000099;
+}
+
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sinopse > h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    line-height: 32.78px;
+    color: #090937;
+}
+
+.sinopse > p {
+    width: 700px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    line-height: 30px;
+    color: #09093799;
+    word-break: break-word; 
+    white-space: normal;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.button > button {
+    width: 400px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #EF6B4A;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+    line-height: 27.32px;
+    cursor: pointer;
+}
+
+.button > button > span {
+    font-weight: 600;
+}
